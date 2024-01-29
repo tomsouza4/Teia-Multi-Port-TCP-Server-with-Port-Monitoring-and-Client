@@ -2,10 +2,7 @@
 
 ## Purpose
 
-This project consists of multiple Python scripts that implement network communication functionalities, including:
-
-- Port Status Checking: Scripts for checking the availability of specified ports on a host.
-- Threaded Servers: Server scripts that handle client connections concurrently using threading.
+This project provides a flexible TCP server implementation capable of listening on multiple ports simultaneously, as well as a client for checking port connectivity and server responses. It leverages Python's socket and threading libraries to handle concurrent connections efficiently.
   
 ## Files
 - Teia_Client.py: Client script for checking port status.
@@ -26,6 +23,12 @@ Teia_Client.py:
 Server Scripts:
 - Run the server scripts to start listening on specified ports.
 - Use a client tool (e.g., telnet) to connect to the servers and interact.
+
+## Potential Applications
+- Network testing and troubleshooting
+- Simple echo servers for testing client-server interactions
+- Simulated network services for development and testing
+- Custom server applications built upon the provided framework
   
 ## Additional Notes
 - Dependencies: Python standard library modules (socket, threading, SocketServer).
